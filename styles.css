@@ -1,0 +1,76 @@
+body {
+  font-family: sans-serif;
+  padding: 0 20px;
+}
+h1 {
+  margin: 0;
+  font-size: 34px;
+  line-height: 48px;
+  padding: 5px;
+}
+h2 {
+  margin: 0 0 0 10px;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 38px;
+  padding: 5px;
+}
+h3 {
+  margin: 0 0 0 10px;
+  font-weight: 250;
+  font-size: 24px;
+  line-height: 38px;
+  padding: 5px;
+}
+.units {
+  position: relative;
+  margin: 20px auto;
+}
+.card {
+  border: 1px solid #dadde1;
+  padding: 15px;
+
+  border-radius: 10px;
+
+  background: linear-gradient(
+    44.8deg,
+    rgba(255, 136, 102, 0.67) -53.1%,
+    rgba(255, 221, 136, 0.28) 49%
+  );
+}
+.temperature {
+  color: rgb(33, 33, 33);
+  font-size: 56px;
+  font-weight: 400;
+  line-height: 1;
+  margin: 20px auto;
+}
+.weather-app {
+  max-width: 600px;
+  margin: 20px auto;
+}
+
+.weather-temperature .active {
+  color: black;
+  cursor: default;
+}
+.weather-temperature .active:hover {
+  text-decoration: none;
+}
+.weather-forecast {
+  margin-top: 20px;
+  text-align: center;
+  color: black;
+}
+
+.weather-forecast-date {
+  font-size: 16px;
+  opacity: 0.6;
+}
+.weather-forecast-temperature-min {
+  opacity: 0.6;
+}
+
+.weather-forecast-temperature {
+  font-size: 13px;
+}
